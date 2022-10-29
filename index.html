@@ -476,13 +476,30 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <!-- <h2>Lorem, ipsum.</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-          nemo excepturi rem quis sequi aperiam esse tempore autem tempora
-          voluptate! Quasi ea recusandae aliquid dolores ab sed placeat minima
-          libero!
-        </p> -->
+        <h2>Залиште свої дані, ми вам передзвонимо</h2>
+        <form name="contact-form" action="#">
+          <label for="person-name" class="form-label">Ім'я</label>
+          <div>
+            <input id="person-name" type="text" name="person-name" />
+            <svg width="18" height="18">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+
+          <label for="person-phone" class="form-label">Телефон</label>
+          <input id="person-phone" type="text" name="person-phone" />
+
+          <label for="person-email" class="form-label">Пошта</label>
+          <input id="person-email" type="email" name="person-email" />
+
+          <label class="form-label" for="">Коментар</label>
+          <textarea
+            class="form-comment"
+            id="person-name"
+            name="person-name"
+            placeholder="Введіть текст"
+          ></textarea>
+        </form>
         <button class="modal-close-button" type="button" data-modal-close>
           <svg class="modal-close-icon" width="18" height="18">
             <use href="./images/close.svg#icon-close"></use>
