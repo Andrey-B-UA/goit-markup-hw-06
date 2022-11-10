@@ -567,10 +567,13 @@ color: var(--color-link);
 .section-social-list{
 color: var(--color-background);
 background-color: var(--section-background);
+font-weight: 700;
 font-size: 14px;
-line-height: 1.14;
+line-height: 1.17;
 text-transform: uppercase;
 margin-bottom: 20px;
+letter-spacing: 0.03em;
+
 }
 
 .socials-list-footer{
